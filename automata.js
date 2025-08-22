@@ -69,7 +69,7 @@ function togglePlay() {
             grid = predict(grid);
             // 2. Draw the new grid
             drawGrid();
-        }, 500); // Updates every 500 milliseconds
+        }, 100); // Updates every 100 milliseconds
     } else {
         playButton.textContent = 'Play';
         clearInterval(simulationInterval);
